@@ -81,13 +81,14 @@ with st.expander("Kliknij aby rozwinąć"):
     st.write(f"Ulubiona epoka: {var5}")
     st.write(f"Ulubione danie chińskie: {var6}")
 
-    # The primary button retunr True if clicked
+    # The primary button returns True if clicked
     btn = st.button(label="Zapisz", type="primary")
     if btn:
         with st.spinner("Zapisuję..."):
             time.sleep(5)  # Simulate saving
             st.success("Zapisano!")
-            st.snow()
+            st.snow()  # Falling snow effect
             time.sleep(3)
             st.rerun()
+
 

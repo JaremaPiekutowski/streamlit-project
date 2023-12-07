@@ -2,6 +2,10 @@
 
 A demonstration of what the Streamlit App can do.
 
+The demo app allows to drag and drop CSVs, concatenate and edit them, and then save.
+
+See [Streamlit app gallery](https://streamlit.io/gallery)
+
 ## Prerequisites
 
 - Python 3.8 or higher
