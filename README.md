@@ -4,7 +4,9 @@ A demonstration of what the Streamlit App can do.
 
 The demo app allows to drag and drop CSVs, concatenate and edit them, and then save.
 
-See [Streamlit app gallery](https://streamlit.io/gallery)
+See also:
+- [Streamlit app gallery](https://streamlit.io/gallery)
+- [AI powered Streamlit tutor chat](https://codetutor.streamlit.app/)
 
 ## Prerequisites
 
@@ -28,5 +30,5 @@ pipenv shell
 3. Run app
 
 ```
-streamlit run app.py
+streamlit run Demo.py
 ```
